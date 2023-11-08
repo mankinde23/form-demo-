@@ -1,0 +1,6 @@
+body {
+    background-image: url(../../assets/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%);
+}
