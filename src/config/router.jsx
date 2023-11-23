@@ -1,3 +1,4 @@
+
 import Home from "../pages/home/home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
@@ -7,6 +8,6 @@ const router = createBrowserRouter([
     }
 ])
 const RouterComponent = () => {
-    <RouterProvider router={router} />
+    return <RouterProvider router={router} />
 }
 export default RouterComponent
